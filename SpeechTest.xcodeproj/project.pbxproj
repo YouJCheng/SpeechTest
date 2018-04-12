@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5410117207DCD6E002640AD /* test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A5410116207DCD6E002640AD /* test.m4a */; };
 		A59E883F206F669F00F72A85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59E883E206F669F00F72A85 /* AppDelegate.swift */; };
 		A59E8841206F669F00F72A85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59E8840206F669F00F72A85 /* ViewController.swift */; };
 		A59E8844206F669F00F72A85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A59E8842206F669F00F72A85 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5410116207DCD6E002640AD /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
 		A59E883B206F669F00F72A85 /* SpeechTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A59E883E206F669F00F72A85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A59E8840206F669F00F72A85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,7 +24,6 @@
 		A59E8845206F669F00F72A85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A59E8848206F669F00F72A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A59E884A206F669F00F72A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A59E8850206F6FB700F72A85 /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5410115207DCC7F002640AD /* audioFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A5410116207DCD6E002640AD /* test.m4a */,
+			);
+			name = audioFiles;
+			sourceTree = "<group>";
+		};
 		A59E8832206F669F00F72A85 = {
 			isa = PBXGroup;
 			children = (
@@ -59,7 +68,7 @@
 				A59E8840206F669F00F72A85 /* ViewController.swift */,
 				A59E8842206F669F00F72A85 /* Main.storyboard */,
 				A59E8845206F669F00F72A85 /* Assets.xcassets */,
-				A59E8850206F6FB700F72A85 /* test.m4a */,
+				A5410115207DCC7F002640AD /* audioFiles */,
 				A59E8847206F669F00F72A85 /* LaunchScreen.storyboard */,
 				A59E884A206F669F00F72A85 /* Info.plist */,
 			);
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5410117207DCD6E002640AD /* test.m4a in Resources */,
 				A59E8849206F669F00F72A85 /* LaunchScreen.storyboard in Resources */,
 				A59E8846206F669F00F72A85 /* Assets.xcassets in Resources */,
 				A59E8844206F669F00F72A85 /* Main.storyboard in Resources */,
@@ -277,10 +287,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N334XERY4R;
+				DEVELOPMENT_TEAM = 979UXC9MMP;
 				INFOPLIST_FILE = SpeechTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ChienCheng.SpeechTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youChienCheng.SpeechTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -292,10 +302,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N334XERY4R;
+				DEVELOPMENT_TEAM = 979UXC9MMP;
 				INFOPLIST_FILE = SpeechTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ChienCheng.SpeechTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youChienCheng.SpeechTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
